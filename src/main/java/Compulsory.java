@@ -11,7 +11,7 @@ public class Compulsory{
                 .mapToObj(i -> new Intersection("v" + i))
                 .toArray(Intersection[]::new);
     for( int i=0;i<nodes.length;i++)
-    System.out.println(nodes[i]);
+      System.out.println(nodes[i]);
 
     List<Street> streetList=new LinkedList<>();
     Street str1=new Street("s1",4);
